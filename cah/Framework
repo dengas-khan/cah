@@ -1,0 +1,34 @@
+Import random
+
+#Preparation phase
+
+Players=[]
+Select card czaar
+random.choice(Players)
+
+White_cards = open(White_cards.txt, "r")
+Deck_white = White_cards.split(", ")
+Hand = []
+Hand_size = x
+while Hand_size<7:
+Hand.append(random.choice(Deck_white))
+
+Black_cards = open (Black_cards.txt, "r")
+Deck_black = Black_cards.split (", ")
+
+#Draw black card phase
+
+Black_card = random.choice (Black_cards)
+
+
+#Play phase
+
+#Judge phase
+
+#Draw phase
+
+#Transfer phase
+
+Loop
+
+#End phase
